@@ -1,0 +1,275 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Dion Stoade",
+        "email": "dstoade0@cornell.edu",
+        "isStaff": false
+      },
+      {
+        "id": 2,
+        "fullName": "Windy Thorneloe",
+        "email": "wthorneloe1@usa.gov",
+        "isStaff": false
+      },
+      {
+        "id": 3,
+        "fullName": "Hillie Phillpotts",
+        "email": "hphillpotts2@rakuten.co.jp",
+        "isStaff": false
+      },
+      {
+        "id": 4,
+        "fullName": "Helenelizabeth Passfield",
+        "email": "hpassfield7@netvibes.com",
+        "isStaff": true
+      },
+      {
+        "id": 5,
+        "fullName": "Franchot Slator",
+        "email": "fslator8@51.la",
+        "isStaff": true
+      },
+      {
+        "id": 6,
+        "fullName": "Renaud Erbe",
+        "email": "rerbe9@psu.edu",
+        "isStaff": true
+      },
+      {
+        "id": 7,
+        "fullName": "Jeremy Bakker",
+        "email": "jeremy@bakker.com",
+        "isStaff": true
+      },
+      {
+        "id": 8,
+        "fullName": "Mackenzie Houston",
+        "email": "mhous8@abc.com",
+        "isStaff": false
+      },
+      {
+        "id": 9,
+        "fullName": "Alexandra Riley",
+        "email": "ariley9@def.com",
+        "isStaff": false
+      },
+      {
+        "id": 10,
+        "fullName": "Benjamin Wright",
+        "email": "bwright10@ghi.com",
+        "isStaff": true
+      },
+      {
+        "id": 11,
+        "fullName": "Claire Johnson",
+        "email": "cjohnson11@jkl.com",
+        "isStaff": true
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "address": "2802 Zula Locks",
+        "phoneNumber": "852-837-9713",
+        "userId": 2
+      },
+      {
+        "id": 2,
+        "address": "568 Fadel Gateway",
+        "phoneNumber": "202-244-7090",
+        "userId": 1
+      },
+      {
+        "id": 3,
+        "address": "161 Wessington Place",
+        "phoneNumber": "865-266-0357",
+        "userId": 3
+      },
+      {
+        "id": 4,
+        "address": "3942 Oak Street",
+        "phoneNumber": "902-222-9837",
+        "userId": 8
+      },
+      {
+        "id": 5,
+        "address": "7485 Maple Avenue",
+        "phoneNumber": "305-445-2310",
+        "userId": 9
+      },
+      {
+        "id": 6,
+        "address": "1020 Cedar Lane",
+        "phoneNumber": "404-555-0198",
+        "userId": 10
+      },
+      {
+        "id": 7,
+        "address": "1111 Birch Boulevard",
+        "phoneNumber": "702-123-4567",
+        "userId": 11
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "specialty": "Macbook Pros",
+        "rate": "100",
+        "userId": 4
+      },
+      {
+        "id": 2,
+        "specialty": "Apple Repair",
+        "rate": 97.39,
+        "userId": 5
+      },
+      {
+        "id": 3,
+        "specialty": "Printer Repair",
+        "rate": 29.45,
+        "userId": 6
+      },
+      {
+        "id": 4,
+        "specialty": "Network Setup",
+        "rate": 75.00,
+        "userId": 10
+      },
+      {
+        "id": 5,
+        "specialty": "Software Troubleshooting",
+        "rate": 55.50,
+        "userId": 11
+      },
+      {
+        "id": 6,
+        "specialty": "Hardware Installation",
+        "rate": 80.00,
+        "userId": 7
+      }
+    ],
+    "serviceTickets": [
+      {
+        "id": 1,
+        "userId": 3,
+        "description": "Cracked phone screen",
+        "emergency": false,
+        "dateCompleted": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
+      },
+      {
+        "id": 2,
+        "userId": 3,
+        "description": "Xbox has red ring of death",
+        "emergency": true,
+        "dateCompleted": ""
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "description": "Dropped iPhone in toilet",
+        "emergency": true,
+        "dateCompleted": "2023-08-12T03:06:27.975Z"
+      },
+      {
+        "userId": 1,
+        "description": "Desktop wont turn on",
+        "emergency": false,
+        "dateCompleted": "",
+        "id": 4
+      },
+      {
+        "userId": 3,
+        "description": "Speaker phone does not work on iPhone",
+        "emergency": true,
+        "dateCompleted": "",
+        "id": 5
+      },
+      {
+        "id": 6,
+        "userId": 2,
+        "description": "Airpods wont connect",
+        "emergency": false,
+        "dateCompleted": ""
+      },
+      {
+        "userId": 2,
+        "description": "Router is broken",
+        "emergency": true,
+        "dateCompleted": "",
+        "id": 7
+      },
+      {
+        "id": 8,
+        "userId": 4,
+        "description": "Laptop overheating",
+        "emergency": false,
+        "dateCompleted": ""
+      },
+      {
+        "id": 9,
+        "userId": 1,
+        "description": "Tablet screen unresponsive",
+        "emergency": true,
+        "dateCompleted": ""
+      },
+      {
+        "id": 10,
+        "userId": 5,
+        "description": "Smartwatch not charging",
+        "emergency": false,
+        "dateCompleted": ""
+      },
+      {
+        "id": 11,
+        "userId": 6,
+        "description": "Bluetooth keyboard malfunctioning",
+        "emergency": true,
+        "dateCompleted": ""
+      }
+    ],
+    "employeeTickets": [
+      {
+        "id": 1,
+        "employeeId": 3,
+        "serviceTicketId": 1
+      },
+      {
+        "id": 3,
+        "employeeId": 1,
+        "serviceTicketId": 4
+      },
+      {
+        "employeeId": 2,
+        "serviceTicketId": 2,
+        "id": 4
+      },
+      {
+        "employeeId": 2,
+        "serviceTicketId": 7,
+        "id": 6
+      },
+      {
+        "id": 7,
+        "employeeId": 1,
+        "serviceTicketId": 8
+      },
+      {
+        "id": 8,
+        "employeeId": 2,
+        "serviceTicketId": 9
+      },
+      {
+        "id": 9,
+        "employeeId": 3,
+        "serviceTicketId": 10
+      },
+      {
+        "id": 10,
+        "employeeId": 4,
+        "serviceTicketId": 11
+      }
+    ]
+  }
+  
+  
